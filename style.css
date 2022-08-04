@@ -7,6 +7,7 @@
     --gray: rgba(255, 255, 255, 0.2);
     --coral: rgba(250, 118, 126, 1);
     --bblack: rgba(24, 24, 24 ,1);
+    --rblue: rgba(22, 68, 124, 1);
 }
 *{ 
     box-sizing: border-box;
@@ -36,7 +37,7 @@
 
 .left_Side{
     position: relative;
-    background: var(--darkblue);
+    background: var(--rblue);
     padding: 40px;
 }
 .profileText{
@@ -107,7 +108,7 @@
     margin-top: 50px;
 }
  .skill_Sets{
-     color: var(--coral);
+     color: var(--lightblue);
      list-style: none;
 
     
@@ -163,6 +164,7 @@ p{
 }
 .box{
     margin-top: 20px;
+    
 }
 .about .box{
   display: flex; 
@@ -170,4 +172,9 @@ p{
 }
 .text h4{
 font-size: 1.5em;
+}
+.text{
+margin-bottom: 20px;
+
+
 }
